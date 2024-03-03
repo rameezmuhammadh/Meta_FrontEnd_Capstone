@@ -463,6 +463,14 @@ footer > menu {
   transition: 0.2s;
 }
 
+
+.menu-image {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
 /* MEDIA QUERIES*/
 @media screen and (max-width: 60rem) {
   .action-button {
