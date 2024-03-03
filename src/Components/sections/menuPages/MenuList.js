@@ -1,5 +1,5 @@
 import React from 'react'
-import MenuImg from "../../../assets/menu.webp";
+import MenuImg from "../../../assets/menu.jpg";
 
 export default function MenuList() {
   return (
