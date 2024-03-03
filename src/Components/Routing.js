@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Homepage from "./pages/HomePage";
+import Menu from "./pages/Menu";
 import About from "./pages/About";
 import Reservation from "./pages/BookingPage";
 import Order from "./pages/Order";
@@ -13,6 +14,7 @@ export default function Routing() {
 
       <Route path="/about" element={<About />} />
 
+      <Route path="/menu" element={<Menu />} />
       <Route path="/reservations" element={<Reservation />} />
 
       <Route path="/order" element={<Order />} />
